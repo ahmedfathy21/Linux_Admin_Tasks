@@ -1,0 +1,29 @@
+# Ignore build artifacts and OS/editor files
+# Binaries
+capslock_led
+*.exe
+*.out
+*.o
+*.so
+*.a
+
+# Build folders
+/bin/
+/obj/
+/build/
+/dist/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.iml
+.history/
+
+# macOS
+.DS_Store
+
+# Temp files
+*~
+*.swp
+*.log
+*.tmp
